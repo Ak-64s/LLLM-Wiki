@@ -1,0 +1,11 @@
+{
+  "vault_path": "vault",
+  "sources_path": "sources",
+  "default_provider": "gemini",
+  "lmstudio_endpoint": "http://localhost:1234/v1",
+  "gemini_model": "gemini-3-flash-preview",
+  "chunk_threshold_lmstudio": 4000,
+  "chunk_threshold_gemini": 750000,
+  "chunk_overlap": 200,
+  "graph_infer_confidence_threshold": 0.5
+}
